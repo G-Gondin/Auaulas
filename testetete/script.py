@@ -34,35 +34,20 @@ def verify_id(arq, id):
         n1.close()
         return False
 
-def cadastra_users(arq, name, upass, id="cria"):
-    """Realiza a adição de um novo usuario no arquivo desejado
-    arq = arquivo desejado
-    name = nome de usuario
-    upass = senha do usuario"""
-     
-    if id == "cria":
-        while True:
-            ids = cria_id()
-            vid = verify_id(arq, ids)
-            if vid == True:
-                continue
-            else:
-                break
+def cadastra_users(arq, name, region, city, age):
+    try:
+        a = open(arq, "at")
+        a.write(f"{name},{region},{city},{age}")
+        a.close()
+    except:
+        return "Houve um erro inesperado"
     else:
-        try:
-            a = open(arq, "at")
-            a.write(f"{name} {upass} {id}")
-            a.write("\n")
-            a.close()
-        except:
-            return "Houve um erro inesperado"
-        else:
-            return "Pessoa cadastrada com sucesso!"
+        return "Pessoa cadastrada com sucesso!"
 
 def jogalist(arq):
     a = open(arq, "rt")
     tusuarios = []
     for c in a:
-        tusuarios.append(c.split())
+        tusuarios.append(c.split(","))
     a.close()
     return tusuarios
