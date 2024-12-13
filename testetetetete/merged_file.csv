@@ -28,8 +28,11 @@ Hannah,South,Dallas,25
 Jack,West,Dallas,34
 Hannah,West,Houston,32
 Ivy,North,San Antonio,21
+Frank,North,Houston,66
+Ivy,South,Los Angeles,35
 Eve,East,New York,64
 Jack,East,Houston,60
+Hannah,East,Philadelphia,45
 Jack,East,Philadelphia,59
 Grace,West,New York,60
 Eve,South,Los Angeles,57
@@ -43,6 +46,7 @@ Alice,South,San Jose,26
 Grace,North,Houston,48
 Jack,North,San Jose,33
 Grace,West,San Antonio,22
+Grace,South,San Jose,52
 Diana,North,San Jose,36
 Jack,West,Houston,57
 Grace,East,Houston,57
@@ -110,10 +114,13 @@ Bob,West,Chicago,61
 Hannah,West,New York,53
 Ivy,North,New York,68
 Hannah,North,San Jose,25
+Frank,North,Phoenix,55
 Jack,South,Dallas,18
 Jack,North,Los Angeles,45
+Charlie,North,San Diego,56
 Alice,North,Phoenix,40
 Ivy,South,San Diego,48
+Jack,West,Dallas,31
 Diana,West,Houston,40
 Alice,West,Phoenix,52
 Charlie,West,San Diego,42
@@ -141,6 +148,7 @@ Jack,West,Philadelphia,58
 Alice,East,Phoenix,23
 Grace,East,Chicago,67
 Jack,East,San Antonio,42
+Bob,East,San Diego,56
 Hannah,East,Dallas,28
 Frank,West,San Jose,58
 Grace,South,Chicago,22
@@ -225,11 +233,13 @@ Bob,South,San Antonio,21
 Grace,East,Chicago,68
 Alice,South,Chicago,31
 Bob,East,San Antonio,64
+Hannah,East,Dallas,57
 Jack,East,Philadelphia,49
 Jack,North,New York,35
 Charlie,South,San Jose,39
 Frank,East,Chicago,30
 Charlie,West,San Diego,64
+Eve,West,San Jose,70
 Jack,North,Los Angeles,42
 Eve,North,Houston,69
 Ivy,North,Chicago,27
@@ -242,8 +252,10 @@ Ivy,West,Phoenix,40
 Hannah,North,San Antonio,46
 Frank,East,San Jose,33
 Ivy,West,New York,68
+Bob,South,San Diego,20
 Hannah,South,New York,53
 Ivy,South,Phoenix,30
+Frank,South,Chicago,29
 Charlie,North,San Antonio,51
 Ivy,West,Philadelphia,34
 Grace,East,Chicago,19
@@ -296,11 +308,13 @@ Diana,East,Houston,33
 Hannah,West,New York,20
 Eve,East,San Antonio,19
 Diana,North,San Antonio,59
+Eve,West,Philadelphia,57
 Frank,South,Philadelphia,54
 Eve,East,Los Angeles,62
 Alice,South,Philadelphia,58
 Grace,South,Los Angeles,57
 Hannah,North,Phoenix,22
+Frank,South,Houston,54
 Frank,West,Chicago,22
 Bob,East,Phoenix,30
 Ivy,East,Houston,28
@@ -309,6 +323,7 @@ Grace,North,Dallas,58
 Diana,East,San Antonio,26
 Charlie,East,Dallas,28
 Alice,South,Houston,34
+Eve,West,San Diego,65
 Grace,North,Chicago,58
 Charlie,East,San Diego,46
 Alice,South,Chicago,33
@@ -320,6 +335,7 @@ Ivy,West,New York,48
 Diana,East,Dallas,42
 Charlie,East,San Diego,49
 Bob,North,San Antonio,20
+Grace,North,San Diego,50
 Hannah,West,Chicago,67
 Frank,West,Houston,70
 Hannah,North,Philadelphia,27
@@ -346,8 +362,10 @@ Alice,West,Philadelphia,63
 Hannah,East,San Jose,58
 Alice,South,San Antonio,28
 Diana,East,Los Angeles,67
+Jack,South,New York,56
 Eve,West,Philadelphia,24
 Diana,North,Dallas,39
+Hannah,West,San Antonio,62
 Alice,East,Phoenix,57
 Eve,West,Dallas,51
 Eve,South,Chicago,38
@@ -364,14 +382,17 @@ Grace,East,New York,29
 Grace,West,Houston,67
 Bob,East,Chicago,40
 Ivy,West,Houston,18
+Diana,West,San Diego,45
 Charlie,South,San Jose,20
 Ivy,West,Dallas,30
 Frank,North,Chicago,53
 Jack,West,San Antonio,24
 Frank,South,New York,32
 Grace,North,Phoenix,67
+Eve,South,San Diego,19
 Grace,South,New York,34
 Alice,North,Phoenix,53
+Charlie,West,San Antonio,57
 Frank,North,Chicago,25
 Alice,West,Chicago,20
 Diana,West,Dallas,47
@@ -418,6 +439,7 @@ Jack,West,San Jose,69
 Frank,East,Dallas,21
 Eve,North,New York,63
 Eve,South,Houston,29
+Hannah,West,New York,35
 Grace,South,Houston,48
 Charlie,East,New York,26
 Eve,South,San Diego,54
@@ -499,6 +521,7 @@ Frank,South,San Antonio,33
 Diana,South,Houston,38
 Eve,East,Los Angeles,32
 Eve,South,Dallas,58
+Eve,West,Phoenix,54
 Diana,North,San Jose,30
 Jack,South,San Antonio,19
 Jack,South,Philadelphia,67
@@ -550,6 +573,7 @@ Hannah,West,San Antonio,60
 Alice,West,Philadelphia,27
 Ivy,North,Chicago,63
 Bob,West,San Jose,36
+Hannah,North,Los Angeles,36
 Jack,West,San Jose,39
 Grace,North,Phoenix,48
 Diana,South,San Diego,38
@@ -581,6 +605,7 @@ Frank,North,Philadelphia,31
 Ivy,South,New York,47
 Ivy,North,Chicago,41
 Bob,South,Los Angeles,24
+Grace,West,Dallas,64
 Diana,North,San Antonio,37
 Charlie,East,San Antonio,43
 Grace,North,Phoenix,62
@@ -613,6 +638,7 @@ Alice,South,San Diego,33
 Grace,South,San Jose,53
 Grace,West,Philadelphia,66
 Jack,West,Dallas,24
+Diana,West,Dallas,67
 Bob,East,Houston,42
 Bob,West,San Diego,66
 Alice,North,New York,70
@@ -660,6 +686,7 @@ Hannah,South,San Antonio,22
 Diana,West,San Jose,70
 Diana,South,Los Angeles,64
 Diana,South,Philadelphia,35
+Charlie,North,Los Angeles,40
 Ivy,South,Los Angeles,36
 Grace,North,Chicago,29
 Charlie,South,Chicago,33
@@ -692,6 +719,7 @@ Hannah,East,San Jose,27
 Grace,North,San Antonio,29
 Frank,South,Phoenix,61
 Charlie,North,San Antonio,26
+Alice,West,San Antonio,34
 Jack,West,Los Angeles,29
 Hannah,West,San Antonio,67
 Bob,East,Chicago,62
@@ -704,6 +732,7 @@ Alice,West,Phoenix,64
 Bob,North,San Antonio,47
 Bob,North,Los Angeles,23
 Hannah,West,Chicago,20
+Charlie,East,New York,49
 Jack,South,Dallas,21
 Jack,North,Houston,48
 Frank,West,San Jose,26
@@ -740,6 +769,7 @@ Alice,North,Chicago,35
 Charlie,West,New York,39
 Ivy,East,Phoenix,57
 Ivy,West,Los Angeles,25
+Eve,East,Chicago,61
 Alice,North,Chicago,59
 Charlie,West,San Antonio,67
 Eve,East,Philadelphia,60
@@ -939,36 +969,6 @@ Frank,North,Philadelphia,44
 Frank,East,San Jose,63
 Jack,West,Philadelphia,51
 Grace,West,San Jose,38
-Frank,North,Houston,66
-Ivy,South,Los Angeles,35
-Hannah,East,Philadelphia,45
-Grace,South,San Jose,52
-Frank,North,Phoenix,55
-Charlie,North,San Diego,56
-Jack,West,Dallas,31
-Bob,East,San Diego,56
-Hannah,East,Dallas,57
-Eve,West,San Jose,70
-Bob,South,San Diego,20
-Frank,South,Chicago,29
-Eve,West,Philadelphia,57
-Frank,South,Houston,54
-Eve,West,San Diego,65
-Grace,North,San Diego,50
-Jack,South,New York,56
-Hannah,West,San Antonio,62
-Diana,West,San Diego,45
-Eve,South,San Diego,19
-Charlie,West,San Antonio,57
-Hannah,West,New York,35
-Eve,West,Phoenix,54
-Hannah,North,Los Angeles,36
-Grace,West,Dallas,64
-Diana,West,Dallas,67
-Charlie,North,Los Angeles,40
-Alice,West,San Antonio,34
-Charlie,East,New York,49
-Eve,East,Chicago,61
 Grace,East,San Jose,46
 Diana,South,Dallas,57
 Alice,South,San Jose,46
@@ -1017,6 +1017,7 @@ Jack,East,Philadelphia,61
 Eve,South,Phoenix,70
 Grace,North,Chicago,32
 Grace,West,San Diego,60
+Eve,North,Phoenix,58
 Hannah,East,San Diego,25
 Bob,North,San Jose,51
 Charlie,East,Houston,27
@@ -1040,6 +1041,7 @@ Jack,South,New York,60
 Hannah,South,Houston,20
 Bob,East,San Jose,48
 Grace,North,New York,66
+Grace,East,Dallas,61
 Frank,East,Phoenix,63
 Jack,West,Philadelphia,22
 Alice,North,Dallas,57
@@ -1227,6 +1229,7 @@ Alice,South,Chicago,39
 Diana,East,San Diego,46
 Diana,North,Dallas,65
 Alice,South,Chicago,70
+Ivy,South,San Jose,26
 Alice,East,Los Angeles,35
 Charlie,South,Houston,34
 Bob,South,San Antonio,28
@@ -1346,6 +1349,7 @@ Charlie,East,Dallas,51
 Diana,North,Houston,63
 Grace,North,Phoenix,64
 Alice,East,San Diego,36
+Hannah,South,Philadelphia,40
 Alice,West,Dallas,66
 Eve,South,Phoenix,59
 Ivy,East,Chicago,53
@@ -1441,7 +1445,3 @@ Ivy,East,New York,36
 Hannah,South,Houston,22
 Ivy,North,Dallas,60
 Frank,North,Phoenix,58
-Eve,North,Phoenix,58
-Grace,East,Dallas,61
-Ivy,South,San Jose,26
-Hannah,South,Philadelphia,40
