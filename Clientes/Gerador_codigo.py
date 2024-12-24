@@ -1,7 +1,4 @@
-import random, sys
-
-sys.path.append("C:\\Users\\Gondin\\OneDrive\\Aulas_testes_projetos")
-import lutv
+import random, lutv
 
 cod = "782147"
 som = 29

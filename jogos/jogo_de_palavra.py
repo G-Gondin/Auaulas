@@ -38,11 +38,14 @@ escolhida tem {len(escolhida)} letras.""")
         while n1 not in "1234" or n1 == "":
             n1 = str(input("Erro, digite novamente: ")).strip()
     if n1 == "1":
+        lutv.limpa()
         print(usadas)
     elif n1 == "2":
+        lutv.limpa()
         print(presente)
     elif n1 == "3":
         while True:
+            lutv.limpa()
             test = str(input("Digite uma letra: ")).strip().lower()
             if test in usadas:
                 print("Letra já utilizada, tente novamente")

@@ -1,6 +1,4 @@
-import os, time, sys
-sys.path.append("C:\\Users\\Gondin\\OneDrive\\Aulas_testes_projetos")
-import lutv
+import os, time, lutv
 
 os.system("cls")
 if lutv.arqexiste("cadastro_de_produtos.txt") == False:

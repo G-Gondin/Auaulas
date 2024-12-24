@@ -1,4 +1,4 @@
-import lutv as lutv, random, time, os
+import lutv, random, time, os
 
 #definição de interfaces de navegação
 

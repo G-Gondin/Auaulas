@@ -190,3 +190,9 @@ Qual dado você quer alterar? """)).strip()
         for c in range(0, len(produtos)):
             cadastro_prod(arq, produtos[c][0], produtos[c][1], produtos[c][2])
         return "Produto removido com sucesso!"
+
+def limpa():
+    from time import sleep
+    from os import system
+    sleep(1)
+    system("cls")

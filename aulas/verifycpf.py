@@ -1,4 +1,4 @@
-n1 = "08370870317".replace(".", "").replace("-", "").replace(" ", "")
+n1 = "08370874304".replace(".", "").replace("-", "").replace(" ", "")
 
 # validação 1 digito cpf
 n1int = []
