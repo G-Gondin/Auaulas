@@ -35,24 +35,29 @@ baralho.remove(carta)
 
 carta = cartas[randint(0, len(baralho))]
 comunitaria.append(carta)
+baralho.remove(carta)
 
 carta = cartas[randint(0, len(baralho))]
 comunitaria.append(carta)
+baralho.remove(carta)
 
 carta = cartas[randint(0, len(baralho))]
 comunitaria.append(carta)
+baralho.remove(carta)
 
 carta = cartas[randint(0, len(baralho))]
 baralho.remove(carta)
 
 carta = cartas[randint(0, len(baralho))]
 comunitaria.append(carta)
+baralho.remove(carta)
 
 carta = cartas[randint(0, len(baralho))]
 baralho.remove(carta)
 
 carta = cartas[randint(0, len(baralho))]
 comunitaria.append(carta)
+baralho.remove(carta)
 
 print(f"""jogador 1: {jogador1[0]} {jogador1[1]}
 jogador 2: {jogador2[0]} {jogador2[1]}
