@@ -88,3 +88,46 @@ def sorteio():
             print("Você se vira e consegue fugir dele, porém no meio do caminho encontra com outro monstro")
             return True
         break
+
+def identmao1(jogad):
+    n = []
+    n = jogad.copy()
+    print(n)
+    if n[0][0] == n[1][0]:
+        mao = "par"
+    else:
+        mao = "carta alta"
+    return mao
+
+def jogalis(jogad, comu):
+    ls = []
+    for c in range(0, 2):
+        ls.append(jogad[c])
+    for c in range(0, 5):
+        ls.append(comu[c])
+    return ls
+
+def identmao(jogad, comu):
+    ls = jogalis(jogad, comu)
+
+    if ispar(ls) == True:
+        mao = "Par"
+    if is2par(ls) == True:
+        mao = "Dois Pares"
+    if istrinca(ls) == True:
+        mao = "Trinca"
+    if istrai(ls) == True:
+        mao = "Straight"
+    if isflush(ls) == True:
+        mao = "Flush"
+    if isfull(ls) == True:
+        mao = "Full House"
+    if isquadra(ls) == True:
+        mao = "Quadra"
+    if istraiflush(ls) == True:
+        mao = "Straight Flush"
+    if isroyal(ls) == True:
+        mao = "Royal Flush"    
+    else:
+        mao = "Carta Alta"
+    return mao
